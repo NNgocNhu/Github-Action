@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GithupActionApplication {
 	@GetMapping("/")
 	public String get(){
-		return "welcom";
+		return "welcom demo github action";
 	}
 
 	public static void main(String[] args) {
